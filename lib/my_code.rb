@@ -27,7 +27,15 @@ end
 
 def reduce_to_all_true(source_array)
     if source_array == true 
-      puts 
+      puts [1, 2, true, "razmatazz"]
+    else
+        return false 
+    end
+    if source_array == false 
+      puts [1, 2, true, "razmatazz", false]
+    else
+      return true 
+    end
 end
 
 def reduce_to_any_true(source_array)
